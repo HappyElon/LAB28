@@ -16,16 +16,16 @@ public class NameMap {
 
     public static Map<Person, Integer> createMap() {
         Map<Person, Integer> nameMap = new HashMap<>();
-        nameMap.put(new Person("Иванов", "Иван"), 1);
-        nameMap.put(new Person("Петров", "Петр"), 1);
-        nameMap.put(new Person("Сидоров", "Иван"), 1);
-        nameMap.put(new Person("Смирнов", "Александр"), 1);
-        nameMap.put(new Person("Козлов", "Сергей"), 1);
-        nameMap.put(new Person("Иванова", "Елена"), 1);
-        nameMap.put(new Person("Петрова", "Ирина"), 1);
-        nameMap.put(new Person("Сидорова", "Елена"), 1);
-        nameMap.put(new Person("Смирнова", "Анна"), 1);
-        nameMap.put(new Person("Козлова", "Ирина"), 1);
+        nameMap.put(new Person("Mitchell", "Benjamin"), 1);
+        nameMap.put(new Person("Turner", "Olivia"), 1);
+        nameMap.put(new Person("Anderson", "Ethan"), 1);
+        nameMap.put(new Person("Reynolds", "Sophia"), 1);
+        nameMap.put(new Person("Cooper", "Mason"), 1);
+        nameMap.put(new Person("Cooper", "Ava"), 1);
+        nameMap.put(new Person("Carter", "Liam"), 1);
+        nameMap.put(new Person("Morgan", "Olivia"), 1);
+        nameMap.put(new Person("Hayes", "Jackson"), 1);
+        nameMap.put(new Person("Foster", "Emma"), 1);
 
         return nameMap;
     }
